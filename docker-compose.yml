@@ -1,0 +1,7 @@
+services:
+  order-mcp-server:
+    build: .
+    container_name: order-mcp-server
+    ports:
+      - "9004:8080"
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  ai:
+    mcp:
+      server:
+        name: order-mcp-server
+        version: 1.0.0
+        protocol: STREAMABLE
